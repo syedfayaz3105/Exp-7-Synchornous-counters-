@@ -46,10 +46,11 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
-
-
-
+1.Type the program in the quartus software
+2.Compile and run the program
+3.Generate the RTL schematic and save the logic diagram
+4.Create nodes for the input and output diagram to generate the timing diagram
+5.For the different input combination,generate the timing diagram
 ### PROGRAM
 ```
 /*
