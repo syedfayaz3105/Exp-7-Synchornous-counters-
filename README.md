@@ -73,18 +73,24 @@ endmodule
 ```
 ## TRUTH TABLE
 ## UP COUNTER
-![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/35efd13c-014e-4b35-a57b-9a67c77f613e)
+![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/2816df81-6cea-4201-917c-214cac5c5e2f)
+
 ## DOWN COUNTER
-![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/a4fc82eb-737a-4376-820d-171677b4b499)
+![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/2560ff4e-d445-468f-aa3d-56b113542352)
+
 ## CIRCUIT DIAGRAM
 ## UP COUNTER
-![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/4bd36294-bd4e-487b-bd74-58eb78c571b2)
+![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/4a9659e7-2a78-44ba-9490-d53c697e7bee)
+
 ## DOWN COUNTER
-![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/954d0fc5-b1bb-4731-8825-98f04763befc)
+![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/86b37d71-2ca0-4d69-884d-5eadc67ba41a)
+
 ## OUTPUT
 ## UP COUNTER
-![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/1263d20e-3fc4-48d5-9d1b-555c5f614442)
+![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/8caba7de-2c95-4847-8ce8-f5bada38092d)
+
 ## DOWN COUNTER
-![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/f020de3a-5b36-4234-9e39-cfe4e7308fc4)
+![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/b5516fcb-4903-4358-a06d-e5f23db3bd99)
+
 ### RESULTS 
 Thus the up counter and down counter circuit and truth table are formed by the Quartus System
