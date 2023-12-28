@@ -1,9 +1,10 @@
+## Developed by: Farhana H
+## Reference number:212223230057
 # Exp-6-Synchornous-counters - up counter and down counter 
 ### AIM: To implement 4 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
-
 ## UP COUNTER 
 The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
 
@@ -18,23 +19,10 @@ Examine the following binary count sequence, paying attention to patterns preced
 Binary count sequence, paying attention to patterns preceding the “toggling” of a bit between 0 and 1.
 
 Note that each bit in this four-bit sequence toggles when the bit before it (the bit having a lesser significance, or place-weight), toggles in a particular direction: from 1 to 0.
-
-
-
- 
- 
-
 Starting with four J-K flip-flops connected in such a way to always be in the “toggle” mode, we need to determine how to connect the clock inputs in such a way so that each succeeding bit toggles when the bit before it transitions from 1 to 0.
-
 The Q outputs of each flip-flop will serve as the respective binary bits of the final, four-bit count:
-
- 
- 
-
 Four-bit “Up” Counter
 ![image](https://user-images.githubusercontent.com/36288975/169644758-b2f4339d-9532-40c5-af40-8f4f8c942e2c.png)
-
-
 
 ## DOWN COUNTER 
 
@@ -47,25 +35,42 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 4-bit Count Down Counter
 ### Procedure
 ```
-1.Type the program in the quartus software
-2.Compile and run the program
-3.Generate the RTL schematic and save the logic diagram
-4.Create nodes for the input and output diagram to generate the timing diagram
-5.For the different input combination,generate the timing diagram
+1.Create a new project in Quartus2 software .
+2.Name the project as uc for upcounter and dc for down counter.
+3.Create a new verilog hdl file in the project file.
+4.Name the module declare as dc and uc for down counter and upcounter.
+5.Within the module declare input and output variable
+6.Create a loop using if-else with condition parameter as reset.
+7.End the loop. 8.End the mo
 ```
 ### PROGRAM
-```
-/*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: Farhana H
-RegisterNumber: 23012987
-*/
-```
-## Code
 ## UP COUNTER
-![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/bdad15cc-1765-4253-9218-373f21b27902)
+```
+module upcounter(clk,q1,q2,q3);
+input clk;
+output reg q1,q2,q3;
+always@(posedge clk)
+begin
+q3 = (q1&q2)^q3;
+q2 = q1^q2;
+q1 = 1^q1;
+end
+endmodule
+```
 ## DOWN COUNTER
-![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/d708ad2b-5893-44d1-9d16-5d685ddfb96c)
+```
+module downcounter(clk,q1,q2,q3);
+input clk;
+output reg q1,q2,q3;
+always@(posedge clk)
+begin
+q3 = ((~q1)&(~q2))^q3;
+q2 = (~q1)^q2;
+q1 = 1^q1;
+end
+endmodule
+```
 ## TRUTH TABLE
 ## UP COUNTER
 ![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/35efd13c-014e-4b35-a57b-9a67c77f613e)
