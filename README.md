@@ -91,6 +91,5 @@ endmodule
 
 ## DOWN COUNTER
 ![image](https://github.com/syedfayaz3105/Exp-7-Synchornous-counters-/assets/147144126/b5516fcb-4903-4358-a06d-e5f23db3bd99)
-
 ### RESULTS 
 Thus the up counter and down counter circuit and truth table are formed by the Quartus System
